@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="main.css" type="text/css"?>
+<window title="QTTabBar" width="1280" height="1024" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/javascript" src="chrome://labka/content/main.js"/>   
+ 
+<hbox>
+    
+<vbox style = "height:923px; width:180px; background-color:#E5FCC8; font-size:20px; border-right: 1px solid #CCD9EA;">
+    <textbox style ="margin-top:14px; margin-bottom:12px; font-size: 12px" placeholder = "Search" />
+    <button class="button img_gen" align="right" label="General"/>
+    <button class="button img_hist" align="right" label="History"/>
+    <button class="button img_tab" align="right" label="Tab"/>
+    <button class="button img_win" align="right" label="Window"/>
+    <button class="button img_too" align="right" label="Toolbar"/>
+    <button class="button img_eve" align="right" label="Events"/>
+    <button class="button img_dra" align="right" label="Drag &amp; Drop"/>
+    <button class="button img_fol" align="right" label="Folder View"/>
+    <button class="button img_com" align="right" label="Compatible Folder View"/>
+    <button class="button img_ext" align="right" label="Extra View"/>
+    <button class="button img_app" align="right" label="Appearance"/>
+    <button class="button img_gro" align="right" label="Groups"/>
+    <button class="button img_appl" align="right" label="Application launcher"/>
+    <button class="button img_comm" align="right" label="Command buttons"/>
+    <button class="button img_plug" align="right" label="Plugins"/>
+    <button class="button img_key" align="right" label="Keyboard Shortcuts"/>
+    <button class="button img_pre" align="right" label="Preview"/>
+    <button class="button img_sub" align="right" label="Subfolder menu"/>
+    <button class="button img_des" align="right" label="Desktop Tool"/>
+    <button class="button img_sou" align="right" label="Sounds"/>
+    <button class="button img_mis" align="right" label="Misc."/>
+</vbox>
+
+<vbox style="width: 1100px; background-color: white;">
+    <box  style="width:1100px; height:26px; margin-top: 10px; margin-bottom: 11px;">
+        <box class="topHist" align="right">History</box>
+        <box align="right" style="width:1005px; ">
+            <button class="btnTop1 btnStyle"/>
+            <button class="btnTop2 btnStyle" label="Restore defaults of this page"/>
+        </box>
+    </box>
+    <groupbox class="grpboxFix">
+        <caption class="capFix"><checkbox label="Recent tabs" checked="true"/></caption>
+        <box>
+            <box style="margin-left: 23px; padding-left: 7px;  width:964px; height:23px; line-height: 23px;">Max items to be saved</box>
+            <box class="counter"><textbox type="number" class="counter" value="32"/></box>
+        </box>
+        <box style="width: 100%; display: inline-block; margin-bottom: 5px;">
+            <box style="margin-left: 23px; padding-left: 7px; width: 833px; line-height: 22px; height:22px; background-color: #ECFDD7;">Add to history when:</box>
+            <menulist class="btnStyle" style=" margin-left: 0px; width: 200px; height: 22px;">
+              <menupopup>
+                <menuitem label="Tab closing" value="1"/>
+                <menuitem label="Tab opening" value="2"/>
+                <menuitem label="Navigation" value="3"/>
+                <menuitem label="Tab opening and navigation" selected="true" value="4"/>
+              </menupopup>
+            </menulist>
+        </box>
+        <checkbox class="chkboxMrgnFix" label="Allow duplication"/>
+        <checkbox class="chkboxMrgnFix" label="Arrange in aphabetical order"/>
+        <box>
+            <checkbox style="width: 951px;" class="chkboxMrgnFix" label="Clear on log-off"/>
+            <button style="width: 80px; margin-bottom: 13px;" class="btnStyle" label="Clear"/>
+        </box>
+    </groupbox>
+    <groupbox class="grpboxFix">
+        <caption class="capFix"><checkbox label="Recent files" checked="true"/></caption>
+        <box>
+            <box style="margin-left: 23px; padding-left: 7px;  width:964px; height:23px; line-height: 23px;">Max items to be saved</box>
+            <box class="counter"><textbox type="number" class="counter" value="32"/></box>
+        </box>
+        <checkbox class="chkboxMrgnFix" checked="true" label="Save application launcher menu history"/>
+        <checkbox class="chkboxMrgnFix" label="Save application launcher menu arguments"/>
+        <box>
+            <checkbox style="margin-left: 13px;  margin-top: -7px; padding-left: 7px;  width:969px; height:23px; line-height: 23px;" disabled="true" label="Save EXE files separately"/>
+            <box class="counter"><textbox type="number" class="counter" value="24"/></box>
+        </box>
+        <checkbox style="margin-top: -1px;" class="chkboxMrgnFix" label="Arrage in aphabetical order"/>     
+        <box style="margin-top: -5px;">
+            <checkbox style="width: 951px;" class="chkboxMrgnFix" label="Clear on log-off"/>
+            <button style="width: 80px; margin-bottom: 13px;" class="btnStyle" label="Clear"/>
+        </box>
+    </groupbox>
+</vbox>
+
+</hbox>
+
+<hbox style="background-color: #F0F0F0; height:49px; position:relative; border-top: 1px solid #898C95">
+    <box class="text-link" id="qtver">QTabBar ver 1040</box>
+    <box class="btnBtmBox">
+        <button class="btnBtm" label="OK"/>
+        <button class="btnBtm" label="Cancel"/>
+        <button class="btnBtm" label="Apply"/>
+    </box>
+</hbox>
+</window>
