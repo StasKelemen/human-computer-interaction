@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAIN-COMP</Machine>
+    <WindowsUser>KLMN</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>6c3d9803-02b3-4310-96a1-2c8b21b849c5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=KLMN</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\KLMN\Desktop\2\App1\App1\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>10BA77D83F8D3F88034826DF340A849F936913817158D0D1ADB45225F307CC0E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6c3d9803-02b3-4310-96a1-2c8b21b849c5_1.0.0.0_x86__ntfhy8p63zx5p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6c3d9803-02b3-4310-96a1-2c8b21b849c5_ntfhy8p63zx5p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6c3d9803-02b3-4310-96a1-2c8b21b849c5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=KLMN</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-28T05:25:55.514</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\App1.exe">
+      <PackagePath>entrypoint\App1.exe</PackagePath>
+      <Modified>2020-01-28T05:25:53.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T12:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\10.png">
+      <PackagePath>Assets\10.png</PackagePath>
+      <Modified>2020-01-27T23:52:23.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\11.png">
+      <PackagePath>Assets\11.png</PackagePath>
+      <Modified>2020-01-28T01:41:40.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+      <Modified>2020-01-27T18:16:06.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+      <Modified>2020-01-27T18:17:39.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\4.png">
+      <PackagePath>Assets\4.png</PackagePath>
+      <Modified>2020-01-27T18:27:27.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\5.png">
+      <PackagePath>Assets\5.png</PackagePath>
+      <Modified>2020-01-27T18:21:51.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\6.png">
+      <PackagePath>Assets\6.png</PackagePath>
+      <Modified>2020-01-27T18:28:14.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\7.png">
+      <PackagePath>Assets\7.png</PackagePath>
+      <Modified>2020-01-27T18:30:21.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\8.png">
+      <PackagePath>Assets\8.png</PackagePath>
+      <Modified>2020-01-27T18:32:09.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\9.png">
+      <PackagePath>Assets\9.png</PackagePath>
+      <Modified>2020-01-27T21:28:53.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\arowDown.png">
+      <PackagePath>Assets\arowDown.png</PackagePath>
+      <Modified>2020-01-28T03:59:45.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\eye.png">
+      <PackagePath>Assets\eye.png</PackagePath>
+      <Modified>2020-01-28T02:48:11.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\history.png">
+      <PackagePath>Assets\history.png</PackagePath>
+      <Modified>2020-01-28T02:45:13.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\off.png">
+      <PackagePath>Assets\off.png</PackagePath>
+      <Modified>2020-01-28T03:38:55.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\on.png">
+      <PackagePath>Assets\on.png</PackagePath>
+      <Modified>2020-01-28T03:38:55.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\qm.png">
+      <PackagePath>Assets\qm.png</PackagePath>
+      <Modified>2020-01-28T04:06:56.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\scrollArrow.png">
+      <PackagePath>Assets\scrollArrow.png</PackagePath>
+      <Modified>2020-01-28T05:01:08.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+      <Modified>2020-01-28T02:37:52.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\sounds.png">
+      <PackagePath>Assets\sounds.png</PackagePath>
+      <Modified>2020-01-28T02:56:42.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\star.png">
+      <PackagePath>Assets\star.png</PackagePath>
+      <Modified>2020-01-28T02:49:03.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\tabs.png">
+      <PackagePath>Assets\tabs.png</PackagePath>
+      <Modified>2020-01-28T02:46:01.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\thunder.png">
+      <PackagePath>Assets\thunder.png</PackagePath>
+      <Modified>2020-01-28T02:47:14.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-17T15:37:46.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\My Project\Default.rd.xml">
+      <PackagePath>My Project\Default.rd.xml</PackagePath>
+      <Modified>2020-01-27T20:43:38.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\App1.xr.xml">
+      <PackagePath>App1.xr.xml</PackagePath>
+      <Modified>2020-01-28T05:25:52.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-01-28T05:24:37.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\Watch.xbf">
+      <PackagePath>Watch.xbf</PackagePath>
+      <Modified>2020-01-28T05:24:37.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\Phone.xbf">
+      <PackagePath>Phone.xbf</PackagePath>
+      <Modified>2020-01-28T05:24:37.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\Tablet.xbf">
+      <PackagePath>Tablet.xbf</PackagePath>
+      <Modified>2020-01-28T05:25:52.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\TV.xbf">
+      <PackagePath>TV.xbf</PackagePath>
+      <Modified>2020-01-28T05:24:37.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T15:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-01-28T05:07:30.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KLMN\Desktop\2\App1\App1\bin\x86\Debug\Core\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2020-01-28T05:25:55.470</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

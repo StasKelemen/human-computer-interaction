@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="App1.TV"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="3840" Height="2160">
+
+    <Grid>
+        <Border BorderThickness="1,0,0,0" BorderBrush="Black" Margin="1109,0,2715,0" Height="2160" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <CompositeTransform ScaleX="-1"/>
+            </Border.RenderTransform>
+        </Border>
+        <TextBlock Text="General" TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1433,125,2123,1958"/>
+        <TextBox HorizontalAlignment="Left" Margin="15,25,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="1095" PlaceholderText="Search" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" TextAlignment="Left" FontFamily="Montserrat" Height="145" FontSize="72" Padding="60,26,0,0" BorderBrush="Black" PlaceholderForeground="Black"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="1014,48,0,0" VerticalAlignment="Top" Width="58" Source="/Assets/11.png" NineGrid="3,0,0,0" Stretch="Fill"/>
+        <Image Source="/Assets/settings.png" Stretch="Fill" Width="165" Height="165" Margin="70,248,3605,1747"/>
+        <Button Content="GENERAL" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,195,2730,1695" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5"/>
+        <Button Content="HISTORY" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,469,2730,1421" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5" Background="White"/>
+        <Button Content="TABS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,743,2730,1147" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Click="Button_Click" Padding="100,4,8,5" Background="White"/>
+        <Button Content="EVENTS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,1018,2730,872" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5" Background="White"/>
+        <Button Content="APPEARANCE" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,1293,2730,597" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5" Background="White"/>
+        <Button Content="GROUPS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,1568,2730,322" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5" Background="White"/>
+        <Button Content="SOUNDS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="15,1843,2730,47" FontFamily="Montserrat" FontSize="72" CornerRadius="10,10,10,10" Height="270" Width="1095" BorderBrush="Black" Padding="100,4,8,5" Background="White"/>
+        <Image Source="/Assets/history.png" Stretch="Fill" Width="165" Height="165" Margin="70,522,3605,1473"/>
+        <Image Source="/Assets/tabs.png" Stretch="Fill" Width="165" Height="165" Margin="70,796,3605,1199"/>
+        <Image Source="/Assets/thunder.png" Stretch="Fill" Width="165" Height="165" Margin="70,1071,3605,924"/>
+        <Image Source="/Assets/eye.png" Stretch="Fill" Width="165" Height="165" Margin="70,1346,3605,649"/>
+        <Image Source="/Assets/star.png" Stretch="Fill" Width="165" Height="165" Margin="70,1621,3605,374"/>
+        <Image Source="/Assets/sounds.png" Stretch="Fill" Width="165" Height="165" Margin="70,1896,3605,99" AllowDrop="True"/>
+        <Image Source="/Assets/settings.png" Stretch="Fill" Margin="1245,98,2462,1929"/>
+        <Image Source="/Assets/on.png" Stretch="Uniform" Margin="1212,330,2394,1750"/>
+        <Image Source="/Assets/off.png" Stretch="Uniform" Margin="1210,438,2396,1642"/>
+        <Image Source="/Assets/off.png" Stretch="Uniform" Margin="1212,541,2394,1539"/>
+        <Image Source="/Assets/off.png" Stretch="Uniform" Margin="1212,645,2394,1435"/>
+        <Image Source="/Assets/on.png" Stretch="Uniform" Margin="1210,752,2396,1328"/>
+        <TextBlock Text="Open window in the working space" TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1455,326,1097,1742"/>
+        <TextBlock Text="Send windows to Task Tray on minimized" TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1454,434,888,1634"/>
+        <TextBlock Text="Save window transparency" TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1455,537,887,1531"/>
+        <TextBlock Text="Maximize horyzontally" TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1457,641,885,1427"/>
+        <TextBlock TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1454,744,888,1324"><Run Text="Hide menu bar"/><LineBreak/><Run/></TextBlock>
+        <TextBlock TextWrapping="Wrap" FontFamily="Montserrat" FontSize="72" Margin="1245,913,2237,1155" Text="Set focus"/>
+        <TextBox HorizontalAlignment="Left" Margin="2672,889,0,0" Text="none" TextWrapping="Wrap" VerticalAlignment="Top" Height="135" Width="660" FontSize="72" FontFamily="Montserrat" BorderBrush="Black" Padding="30,15,6,6"/>
+        <Image Source="/Assets/arowDown.png" Stretch="Uniform" Margin="3223,917,520,1163"/>
+        <Button Content="Restore defaults&#xD;&#xA;" Margin="2672,1736,0,0" VerticalAlignment="Top" Height="161" Width="660" FontSize="72" FontFamily="Montserrat" Click="Button_Click_1" Background="{x:Null}" BorderBrush="Black" Padding="8,30,8,5"/>
+        <Button Margin="3392,1736,0,0" VerticalAlignment="Top" Height="161" Width="196" FontSize="72" FontFamily="Montserrat" Click="Button_Click_1" Background="{x:Null}" BorderBrush="Black" Padding="8,30,8,5">
+            <Image HorizontalAlignment="Left" Height="103" Margin="6,-23,0,0" VerticalAlignment="Top" Width="106" Source="/Assets/qm.png"/>
+        </Button>
+
+    </Grid>
+</Page>

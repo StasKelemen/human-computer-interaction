@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="App1.Tablet"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1015" Height="662">
+
+    <Grid HorizontalAlignment="Right" Width="1015" Height="662" BorderThickness="1,1,1,1" BorderBrush="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="153*"/>
+            <ColumnDefinition Width="862*"/>
+        </Grid.ColumnDefinitions>
+        <SplitView Margin="0,0,0,612" Grid.ColumnSpan="2">
+            <SplitView.Pane>
+                <Grid/>
+            </SplitView.Pane>
+            <Grid Margin="328,0,0,0" BorderThickness="0,0,0,1" BorderBrush="Black">
+                <TextBlock HorizontalAlignment="Center" Text="General" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="18" FontWeight="Normal" Margin="0,16,0,0"/>
+            </Grid>
+        </SplitView>
+        <SplitView Margin="0,0,685,0" Grid.ColumnSpan="2">
+            <SplitView.Pane>
+                <Grid/>
+            </SplitView.Pane>
+            <Grid BorderBrush="Black" BorderThickness="0,0,1,0">
+                <TextBox HorizontalAlignment="Center" Margin="0,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" CornerRadius="20,20,20,20" Width="310" PlaceholderText="Search" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" TextAlignment="Center" FontFamily="Montserrat"/>
+                <Button Content="General" Margin="0,55,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="#FFDDDDDD" Width="330" Grid.ColumnSpan="2" Height="45" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Grid.Row="0" RenderTransformOrigin="0.5,0.5" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="History" Margin="0,100,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="328" Grid.ColumnSpan="2" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Tabs" Margin="0,145,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="328" Grid.ColumnSpan="2" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Events" Margin="0,190,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="329" Grid.ColumnSpan="2" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Lock" Margin="0,235,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="329" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Groups" Margin="0,280,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="328" HorizontalAlignment="Center" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Sounds" Margin="0,325,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="328" HorizontalAlignment="Center" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+                <Button Content="Keyboard Shortcuts" Margin="0,370,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Width="328"  HorizontalAlignment="Center" Height="45" HorizontalContentAlignment="Left" FontFamily="Montserrat" Padding="65.1,4,8,5"/>
+            </Grid>
+        </SplitView>
+
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,153,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/3.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,107,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/2.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,65,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/9.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,198,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/4.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,243,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/5.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,289,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/6.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,333,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/7.png" Stretch="Fill" RenderTransformOrigin="-1.333,0.933"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="20,379,0,0" VerticalAlignment="Top" Width="30" Source="/Assets/8.png" Stretch="Fill"/>
+        <ToggleSwitch Grid.Column="1" OnContent="Open window in the working space" Margin="231,80,0,0" VerticalAlignment="Top" IsOn="True" FontFamily="Montserrat"/>
+        <ToggleSwitch Grid.Column="1" OffContent="Send windows to Task Tray on minimized" Margin="231,112,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <ToggleSwitch Grid.Column="1" OffContent="Save windows transperancy" Margin="231,144,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <ToggleSwitch Grid.Column="1" OffContent="Maximize horyzontally" Margin="231,176,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <ToggleSwitch Grid.Column="1" OnContent="Hide menu bar" Margin="231,208,0,0" VerticalAlignment="Top" FontFamily="Montserrat" IsOn="True"/>
+        <ComboBox Grid.Column="1" Margin="231,251,0,0" Width="305" PlaceholderText="Languages" FontFamily="Montserrat" Height="29" CornerRadius="4,4,4,4"/>
+        <ComboBox Grid.Column="1" Margin="231,285,0,0" Width="305" PlaceholderText="Avaliable Updates" FontFamily="Montserrat" Height="29" CornerRadius="4,4,4,4"/>
+        <Button Content="Restore Defaults" Grid.Column="1" Margin="231,337,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="Black" CornerRadius="15,15,15,15" FontFamily="Montserrat" BorderThickness="1,1,1,1" Width="226" Height="32"/>
+    </Grid>
+</Page>
