@@ -1,8 +1,8 @@
 # human-computer-interaction
 
 
-There were analyzed, drawn, redrawn, and programmed over a hundred interface windows based on the QTTabBar program  
-within the university course "Людинно-машинна взаємодія"
+There were analyzed, drawn, redrawn, and programmed over a hundred interface windows 
+based on the QTTabBar program within the university course "Людинно-машинна взаємодія".
 
 1. UI constructive elements analysis
 2. prototypes creation
