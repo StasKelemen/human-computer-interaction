@@ -1,4 +1,4 @@
-# human-computer-interaction
+# human-machine-interaction
 
 
 There were analyzed, drawn, redrawn, and programmed over a hundred interface windows 
