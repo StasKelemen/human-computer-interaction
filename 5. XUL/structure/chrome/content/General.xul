@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="main.css" type="text/css"?>
+<window title="QTTabBar" width="1280" height="1024" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+        
+<script type="application/javascript" src="chrome://labka/content/main.js"/>    
+<hbox>
+    
+<vbox style = "height:923px; width:180px; background-color:#E5FCC8; font-size:20px; border-right: 1px solid #CCD9EA;">
+    <textbox style ="margin-top:14px; margin-bottom:12px; font-size: 12px" placeholder = "Search" />
+    <button class="button img_gen" align="right" label="General"/>
+    <button class="button img_hist" align="right" label="History"/>
+    <button class="button img_tab" align="right" label="Tab"/>
+    <button class="button img_win" align="right" label="Window"/>
+    <button class="button img_too" align="right" label="Toolbar"/>
+    <button class="button img_eve" align="right" label="Events"/>
+    <button class="button img_dra" align="right" label="Drag &amp; Drop"/>
+    <button class="button img_fol" align="right" label="Folder View"/>
+    <button class="button img_com" align="right" label="Compatible Folder View"/>
+    <button class="button img_ext" align="right" label="Extra View"/>
+    <button class="button img_app" align="right" label="Appearance"/>
+    <button class="button img_gro" align="right" label="Groups"/>
+    <button class="button img_appl" align="right" label="Application launcher"/>
+    <button class="button img_comm" align="right" label="Command buttons"/>
+    <button class="button img_plug" align="right" label="Plugins"/>
+    <button class="button img_key" align="right" label="Keyboard Shortcuts"/>
+    <button class="button img_pre" align="right" label="Preview"/>
+    <button class="button img_sub" align="right" label="Subfolder menu"/>
+    <button class="button img_des" align="right" label="Desktop Tool"/>
+    <button class="button img_sou" align="right" label="Sounds"/>
+    <button class="button img_mis" align="right" label="Misc."/>
+</vbox>
+
+<vbox style="width: 1100px; background-color: white;">
+    <box  style="width:1100px; height:26px; margin-top: 10px; margin-bottom: 11px;">
+        <box class="topGen" align="right">General</box>
+        <box align="right" style="width:1003px; ">
+            <button class="btnTop1 btnStyle"/>
+            <button class="btnTop2 btnStyle" label="Restore defaults of this page"/>
+        </box>
+    </box>
+    <groupbox class="grpboxFix">
+      <caption class="capFix"><checkbox label="Show tooltips"/></caption>
+      <checkbox class="chkboxMrgnFix lastChkbox" label="Display more detailed tooltip" checked="true" disabled="true"/>
+    </groupbox>
+    <groupbox class="grpboxFix">
+        <caption class="capFix" label="Network"/>
+        <box class="netWrap">
+            <box style="margin-left: 23px; padding-left: 7px; width:964px; height:23px; left:26px; background-color:#ECFDD7;">Network timeout, in second</box>
+            <box class="counter"><textbox type="number" class="counter" value="10"/></box>
+        </box>
+        <checkbox class="chkboxMrgnFix" checked="true" label="Retry access until timeout period elapses"/>
+    </groupbox>
+    <groupbox class="grpboxFix">
+        <caption class="capFix" label="Language file"/>
+        <box style="width:100%">
+            <textbox class="langBox"/>
+            <button class="btnStyle langBtn1"/> 
+        </box>
+        <box style="width:100%; margin-bottom: 13px; margin-right: 12px; margin-top: 8px" align="right">
+            <button class="btnStyle langBtn2" label="Create language file..."/>
+            <button class="btnStyle langBtn3" label="Download language file..."/>
+        </box>
+    </groupbox>
+    <groupbox class="grpboxFix">
+        <caption class="capFix" label="Update"/>
+        <checkbox class="chkboxMrgnFix" label="Prompt when updates are found"/>
+        <checkbox class="chkboxMrgnFix" label="Ignore beta versions"/>
+        <box style="width=100%; margin-right: 12px; margin-bottom: 9px;" align="right">
+            <button class="updBtn btnStyle" label="Download update now..."/>
+        </box>
+    </groupbox>
+    <groupbox class="grpboxFix">
+        <caption class="capFix" label="Managing settings"/>
+        <box style="width=100%; margin-bottom: 5px; margin-right: 12px;" align="right">
+            <button class="manBtn manBtn1 btnStyle" label="Export now..."/>
+            <button class="manBtn manBtn1 btnStyle" label="Import now..."/>
+        </box>
+        <box style="width=100%; margin-right: 12px; margin-bottom: 13px;" align="right">
+            <button class="manBtn manBtn2 btnStyle" label="Restore default settings..."/>
+        </box>
+    </groupbox>
+</vbox>
+
+</hbox>
+
+<hbox style="background-color: #F0F0F0; height:49px; position:relative; border-top: 1px solid #898C95">
+    <box class="text-link" id="qtver">QTabBar ver 1040</box>
+    <box class="btnBtmBox">
+        <button class="btnBtm" label="OK"/>
+        <button class="btnBtm" label="Cancel"/>
+        <button class="btnBtm" label="Apply"/>
+    </box>
+</hbox>
+</window>
