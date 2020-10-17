@@ -1,6 +1,8 @@
 # user-interfaces
 
-There were analyzed, drawn, redrawn, and created over a hundred of interfaces based on the QTTabBar program.
+
+There were analyzed, drawn, redrawn, and created over a hundred of interfaces based on the QTTabBar program  
+within the university course "Людинно-машинна взаємодія"
 
 1. UI constructive elements analysis
 2. prototypes creation
